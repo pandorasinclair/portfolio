@@ -11,3 +11,36 @@ body {
   margin: 0 auto;
   font-size: 112%;
 }
+h1 {
+  color: #777575;
+}
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tabs label {
+  order: 1;
+  padding: 1rem 2rem;
+  margin-right: 0.2rem;
+  cursor: pointer;
+  background: #838383;
+  font-weight: bold;
+  transition: background ease 0.6s;
+}
+.tabs .tab {
+  order: 99;
+  width: 100%;
+  display: none;
+  padding: 2rem;
+  background: #ffffff;
+}
+.tabs input[type="radio"] {
+  display: none;
+}
+.tabs input[type="radio"]:checked + label {
+  background: #fff;
+}
+.tabs input[type="radio"]:checked + label + .tab {
+  display: block;
+}

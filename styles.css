@@ -11,34 +11,3 @@ body {
   margin: 0 auto;
   font-size: 112%;
 }
-h1 {
-  color: #a7a3a3;
-}
-tabs {
-  display: flex;
-  flex-wrap: wrap;
-}
-.tabs label {
-  order: 1;
-  display: block;
-  padding: 1rem 2rem;
-  margin-right: 0.2rem;
-  cursor: pointer;
-  background: #838383;
-  font-weight: bold;
-  transition: background ease 0.2s;
-}
-tabs {
-  display: flex;
-  flex-wrap: wrap;
-}
-.tabs label {
-  order: 1;
-  display: block;
-  padding: 1rem 2rem;
-  margin-right: 0.2rem;
-  cursor: pointer;
-  background: #838383;
-  font-weight: bold;
-  transition: background ease 0.2s;
-}

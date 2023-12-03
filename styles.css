@@ -14,6 +14,17 @@ header {
   justify-content: space-between;
   display: flex;
 }
+.header-icons {
+  font-size: 2.5rem;
+}
+#avatar {
+  height: 70px;
+}
+#avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5rem;
+}
 h1 {
   color: #777575;
   text-align: center;
@@ -98,7 +109,4 @@ h1 {
 
 .icon-list i:hover {
   color: #ff6600;
-}
-.footnote-icons {
-  font-size: 1.6rem;
 }

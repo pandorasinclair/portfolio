@@ -23,7 +23,7 @@ header {
   height: 100%;
   border-radius: 5rem;
 }
-ul {
+.header-icons {
   list-style: none;
   display: flex;
   font-size: 2.5rem;
@@ -40,6 +40,9 @@ ul {
 .content {
   background-color: #ff6600;
   grid-column: span 2;
+}
+.hidden {
+  display: none;
 }
 .menu {
   background-color: aqua;

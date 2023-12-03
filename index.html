@@ -15,8 +15,8 @@
   <div id="avatar">
     <img src="/portfolio/profilbild/astarion-testbild.png" alt="Avatar Icon">
   </div>
-    <div class="header-icons">
-      <ul>
+    <div>
+      <ul class="header-icons">
         <li><i class="fa-regular fa-envelope"></i></li>
         <li><i class="fa-brands fa-linkedin-in"></i></li>
         <li><i class="fa-brands fa-github"></i></li>
@@ -24,8 +24,23 @@
     </div>
     </header>
   <div class="main-layout">
-    <div class="content"  min-width="300px">Egal was</div>
-    <div class="menu" min-width="300px">Egal was</div>
+    <div class="content"  min-width="300px">
+      <div id="content-welcome">Willkommen</div>
+      <div id="content-skills" class="hidden">Skills</div>
+      <div id="content-projekte" class="hidden">Projekte</div>
+      <div id="content-zertifikate" class="hidden">Zertifikate</div>
+      <div id="content-lebenslauf" class="hidden">Lebenslauf</div>
+    </div>
+    
+    <div class="menu" min-width="300px">
+        <ul>
+          <li id="menu-welcome">Willkommen</li>
+          <li id="menu-skills">Skills</li>
+          <li id="menu-projekte">Projekte</li>
+          <li id="menu-zertifikate">Zertifikate</li>
+          <li id="menu-lebenslauf">Lebenslauf</li>
+      </ul>
+    </div>
   </div>
     <div><h1>Hi, ich bin die Eli!</h1>
       <p>Ich bin angehende front-end Entwicklerin aus Nürnberg, Deutschland. Ich sammle mithilfe verschiedener Projekte Erfahrungen in JavaScript, React und Bootstrap.</p></div>
@@ -259,5 +274,6 @@
     <footer>
       
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

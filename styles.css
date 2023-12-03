@@ -44,7 +44,7 @@ h1 {
 .tabs input[type="radio"]:checked + label + .tab {
   display: block;
 }
-@media (max-width: 600px) {
+@media (max-width: 747px) {
   .tabs .tab,
   .tabs label {
     order: initial;

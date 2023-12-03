@@ -13,9 +13,7 @@ body {
 header {
   justify-content: space-between;
   display: flex;
-}
-.header-icons {
-  font-size: 2.5rem;
+  align-items: center;
 }
 #avatar {
   height: 70px;
@@ -25,6 +23,28 @@ header {
   height: 100%;
   border-radius: 5rem;
 }
+ul {
+  list-style: none;
+  display: flex;
+  font-size: 2.5rem;
+  gap: 20px;
+}
+
+.main-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 5px;
+  margin: 0 1rem;
+}
+
+.content {
+  background-color: #ff6600;
+  grid-column: span 2;
+}
+.menu {
+  background-color: aqua;
+}
+
 h1 {
   color: #777575;
   text-align: center;
@@ -69,6 +89,15 @@ h1 {
 .tabs input[type="radio"]:checked + label + .tab {
   display: block;
 }
+
+@media (max-width: 990px) {
+  header {
+    padding: 0 4rem;
+  }
+  .menu {
+    grid-column: span 2;
+  }
+}
 @media (max-width: 767px) {
   .tabs .tab,
   .tabs label {
@@ -92,6 +121,7 @@ h1 {
     border-top-right-radius: 0em;
   }
 }
+
 .icon-list {
   display: flex;
   flex-wrap: wrap;

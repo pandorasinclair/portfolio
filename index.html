@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,48 +11,31 @@
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body>
+
     <header>
-  <div id="avatar">
+      <div id="avatar">
     <img src="/portfolio/profilbild/astarion-testbild.png" alt="Avatar Icon">
-  </div>
-    <div>
+      </div>
       <ul class="header-icons">
         <li><i class="fa-regular fa-envelope"></i></li>
         <li><i class="fa-brands fa-linkedin-in"></i></li>
         <li><i class="fa-brands fa-github"></i></li>
       </ul>
-    </div>
     </header>
+
   <div class="main-layout">
     <div id="content" class="content"  min-width="300px">
-      <div id="content-welcome"class="visible">Willkommen</div>
-      <div id="content-skills" class="hidden">Skills</div>
-      <div id="content-projekte" class="hidden">Projekte</div>
-      <div id="content-zertifikate" class="hidden">Zertifikate</div>
-      <div id="content-lebenslauf" class="hidden">Lebenslauf</div>
-    </div>
-    
-    <div class="menu" min-width="300px">
-        <ul>
-          <li id="menu-welcome">Willkommen</li>
-          <li id="menu-skills">Skills</li>
-          <li id="menu-projekte">Projekte</li>
-          <li id="menu-zertifikate">Zertifikate</li>
-          <li id="menu-lebenslauf">Lebenslauf</li>
-      </ul>
-    </div>
-  </div>
-    <div><h1>Hi, ich bin die Eli!</h1>
-      <p>Ich bin angehende front-end Entwicklerin aus Nürnberg, Deutschland. Ich sammle mithilfe verschiedener Projekte Erfahrungen in JavaScript, React und Bootstrap.</p></div>
-    <div class="Introduction">
-      <p>Profilbild, Kurze Beschreibung und Motivation</p>
-    </div>
-    <div class="tabs">
-      <input type="radio" name="tabs" id="tabEins" checked="checked" />
-      <label for="tabEins">Skills</label>
-      <div class="tab">
-        <h5>Hovern für Details:</h5>
+
+      <div id="content-welcome"class="visible"><div>
+        <h1>Hi, ich bin die Eli!</h1>
+        <p>Ich bin angehende front-end Entwicklerin aus Nürnberg, Deutschland. Ich sammle mithilfe verschiedener Projekte Erfahrungen in JavaScript, React und Bootstrap.</p></div>
+      <div class="Introduction">
+        <p>Profilbild, Kurze Beschreibung und Motivation</p>
+      </div></div>
+        
+      <div id="content-skills" class="hidden">
         <div class="icon-list">
           <div>
             <i class="fa-brands fa-js" title="JavaScript"></i>
@@ -91,90 +75,78 @@
           </div>
         </div>
       </div>
-      <input type="radio" name="tabs" id="tabZwei" />
-      <label for="tabZwei">Projekte</label>
-      <div class="tab">
-        <h5>Tab 2 Content</h5>
-        <p>
-          Auflistung meiner umgesetzten Projekte mit Links auf Github und, im
-          falle von Jenna, ein Link zur Seite
-        </p>
-      </div>
-      <input type="radio" name="tabs" id="tabDrei" />
-      <label for="tabDrei">Zertifikate</label>
-      <div class="tab">
-        <a
-          href="/portfolio/zertifikate/introduction_front_end_dev_certificate_Eleonora_Zweigardt.pdf"
-          >Introduction to Front End Development By Coursera</a
-        >
-        <br />
-        <ul>
-          <li>
-            Grundlagen zum Verständnis der Funktion von Websiten, Protokollen
-            und Servern
-          </li>
-          <li>Einleitung zu Web Dev Tools, Frameworks, Liberies</li>
-          <li>Grundlagen in HTML und CSS anhand von Beispielen</li>
-          <li>Grundlagen in das UI Framework Bootstrap</li>
-        </ul>
-        <br />
 
-        <a
-          href="/portfolio/zertifikate/programming_with_JS_certificate_Eleonora_Zweigardt.pdf"
-          >Programming with JavaScript By Coursera</a
-        ><br />
-        <ul>
-          <li>
-            Einführung in Javascripts Nutzung von Variablen, Data Types und
-            Operators
-          </li>
-          <li>Lernen von Functional Programming anhand von Beispielen</li>
-          <li>Nutzung von Conditional Statements und Loops</li>
-          <li>Schreiben von Funktionen</li>
-          <li>Nutzung von Objekten und Arrays</li>
-          <li>Variablen, Klassen und Umgang mit diesen als Inheritance</li>
-          <li>Rudimentäre DOM Manipulation</li>
-          <li>Grundlagen von Testing mithilfe von Jest</li>
-          <li>Installation und Nutzung von Node.js und npm</li>
-        </ul>
-        <br />
+      <div id="content-projekte" class="hidden">Projekte</div>
 
-        <a
-          href="/portfolio/zertifikate/version_control_certificate_Eleonora_Zweigardt.pdf"
-          >Version Control By Coursera</a
-        ><br />
-        <ul>
-          <li>Erstellen und Management von Repositories auf Github</li>
-          <li>Verwendung von Visual Studio Code in Kombination mit Github</li>
-          <li>Arbeiten mit Command Lines in Bash</li>
-        </ul>
-        <br />
 
-        <a
-          href="/portfolio/zertifikate/react_basics_certificate_Eleonora_Zweigardt.pdf"
-          >React Basics By Coursera</a
-        ><br />
-        <ul>
-          <li>
-            Erstellen eines Taschenrechners mithilfe React nach Anweisung von
-            Meta <br />
-            (siehe
-            <a href="https://github.com/pandorasinclair/simplest-calc.git"
-              >hier</a
-            >)
-          </li>
-          <li>Erstellen und Importieren von Components</li>
-          <li>Verwenden von Props</li>
-          <li>Nutzung und Management von States und Events</li>
-          <li>Navigation sowie das Aktualisieren von Assets in React.js</li>
-        </ul>
-        <br />
+      <div id="content-zertifikate" class="hidden"><a
+        href="/portfolio/zertifikate/introduction_front_end_dev_certificate_Eleonora_Zweigardt.pdf"
+        >Introduction to Front End Development By Coursera</a>
+      <br />
+      <ul>
+        <li>
+          Grundlagen zum Verständnis der Funktion von Websiten, Protokollen
+          und Servern
+        </li>
+        <li>Einleitung zu Web Dev Tools, Frameworks, Liberies</li>
+        <li>Grundlagen in HTML und CSS anhand von Beispielen</li>
+        <li>Grundlagen in das UI Framework Bootstrap</li>
+      </ul>
+      <br />
+  
+      <a
+        href="/portfolio/zertifikate/programming_with_JS_certificate_Eleonora_Zweigardt.pdf"
+        >Programming with JavaScript By Coursera</a
+      ><br />
+      <ul>
+        <li>
+          Einführung in Javascripts Nutzung von Variablen, Data Types und
+          Operators
+        </li>
+        <li>Lernen von Functional Programming anhand von Beispielen</li>
+        <li>Nutzung von Conditional Statements und Loops</li>
+        <li>Schreiben von Funktionen</li>
+        <li>Nutzung von Objekten und Arrays</li>
+        <li>Variablen, Klassen und Umgang mit diesen als Inheritance</li>
+        <li>Rudimentäre DOM Manipulation</li>
+        <li>Grundlagen von Testing mithilfe von Jest</li>
+        <li>Installation und Nutzung von Node.js und npm</li>
+      </ul>
+      <br />
+  
+      <a
+        href="/portfolio/zertifikate/version_control_certificate_Eleonora_Zweigardt.pdf"
+        >Version Control By Coursera</a
+      ><br />
+      <ul>
+        <li>Erstellen und Management von Repositories auf Github</li>
+        <li>Verwendung von Visual Studio Code in Kombination mit Github</li>
+        <li>Arbeiten mit Command Lines in Bash</li>
+      </ul>
+      <br />
+  
+      <a
+        href="/portfolio/zertifikate/react_basics_certificate_Eleonora_Zweigardt.pdf"
+        >React Basics By Coursera</a
+      ><br />
+      <ul>
+        <li>
+          Erstellen eines Taschenrechners mithilfe React nach Anweisung von
+          Meta <br />
+          (siehe
+          <a href="https://github.com/pandorasinclair/simplest-calc.git"
+            >hier</a
+          >)
+        </li>
+        <li>Erstellen und Importieren von Components</li>
+        <li>Verwenden von Props</li>
+        <li>Nutzung und Management von States und Events</li>
+        <li>Navigation sowie das Aktualisieren von Assets in React.js</li>
+      </ul>
+      <br /></div>
+      
 
-      </div>
-      <input type="radio" name="tabs" id="tabVier" />
-      <label for="tabVier">Lebenslauf</label>
-      <div class="tab">
-        <h1>Berufserfahrung</h1>
+      <div id="content-lebenslauf" class="hidden"><h1>Berufserfahrung</h1>
         <h3>
           Kassenmitarbeiterin Teilzeit | DB Museum Nürnberg | Nov '23 - Heute
         </h3>
@@ -270,10 +242,20 @@
           </li>
         </ul>
       </div>
-    </div>
-    <footer>
       
-    </footer>
+
+    </div>
+    <div class="menu" min-width="300px">
+      <ul>
+        <li class="menu-item" id="menu-welcome">Willkommen</li>
+        <li class="menu-item" id="menu-skills">Skills</li>
+        <li class="menu-item" id="menu-projekte">Projekte</li>
+        <li class="menu-item" id="menu-zertifikate">Zertifikate</li>
+        <li class="menu-item" id="menu-lebenslauf">Lebenslauf</li>
+    </ul>
+  </div>
+  </div>
+
     <script src="script.js"></script>
   </body>
 </html>

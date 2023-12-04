@@ -19,22 +19,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const hiddenContent = document.getElementById(contentIdString);
     hiddenContent.classList.add("visible");
     hiddenContent.classList.remove("hidden");
-
-    /*  if (container.classList.contains("hidden")) {
-      var allMenuItems = clickedMenuItem.parentElement.children;
-      for (var i = 0; i < allMenuItems.length; i++) {
-        var menuItem = allMenuItems[i];
-        menuItem.classList.add("hidden");
-        menuItem.classList.remove("visible");
-        menuItem.style.opacity = 0;
-        menuItem.style.transform = "translateX(100%)";
-      }
-
-      clickedMenuItem.classList.remove("hidden");
-      clickedMenuItem.classList.add("visible");
-      clickedMenuItem.style.opacity = 1;
-      clickedMenuItem.style.transform = "translateX(0)";
-    } */
   }
 
   var menuItemWelcome = document.getElementById("menu-welcome");

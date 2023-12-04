@@ -11,12 +11,18 @@ body {
   line-height: 1.5;
   max-width: 60rem;
   margin: 0 auto;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 106%;
   color: antiquewhite;
 }
 
 h1 {
-  color: #777575;
+  color: #979797;
   text-align: center;
+}
+.auflistung {
+  list-style-type: circle;
+}
+.beschreibung {
+  text-align: justify;
 }

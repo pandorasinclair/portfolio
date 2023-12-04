@@ -9,15 +9,15 @@
       src="https://kit.fontawesome.com/9c795e8bb4.js"
       crossorigin="anonymous"
     ></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+    </style>
   </head>
 
   <body>
     <header>
       <div id="avatar">
-        <img
-          src="/portfolio/profilbild/astarion-testbild.png"
-          alt="Avatar Icon"
-        />
+        <img src="profilbild/astarion-testbild.png" alt="Avatar Icon" />
       </div>
       <ul class="header-icons">
         <li><i class="fa-regular fa-envelope"></i></li>
@@ -29,21 +29,23 @@
     <div class="main-layout">
       <div id="content" class="content" min-width="300px">
         <div id="content-welcome" class="visible">
-          <div>
-            <h1>Hi, ich bin die Eli!</h1>
-            <p>
-              Ich bin angehende front-end Entwicklerin aus Nürnberg,
-              Deutschland. Ich sammle mithilfe verschiedener Projekte
-              Erfahrungen in JavaScript, React und Bootstrap.
-            </p>
-          </div>
-          <div class="Introduction">
-            <p>Profilbild, Kurze Beschreibung und Motivation</p>
-          </div>
+          <h1>Hi, ich bin Eli! &#128075;</h1>
+          <p class="beschreibung">
+            Ich bin angehende Front-End Entwicklerin aus Nürnberg, Deutschland.
+            Ich sammle mithilfe verschiedener Projekte Erfahrungen in
+            JavaScript, React und Bootstrap.<br />
+            Meine Leidenschaft für das Programmieren habe ich über das Modden
+            von Videospielen entdeckt und habe deshalb meine Reise als
+            Entwicklerin im Herbst 2023 gestartet.
+          </p>
         </div>
 
         <div id="content-skills" class="hidden">
           <div class="icon-list">
+            <p class="beschreibung">
+              Durch meine Projekte und Zertifikate hatte ich mit den folgenden
+              Programmen, Technologien und Tools Kontakt:
+            </p>
             <div>
               <i class="fa-brands fa-js" title="JavaScript"></i>
               <p>Javascript</p>
@@ -86,12 +88,23 @@
         <div id="content-projekte" class="hidden">Projekte</div>
 
         <div id="content-zertifikate" class="hidden">
+          <p class="beschreibung">
+            Um meinen Einstieg in die Thematik Front-End Development zu
+            erleichtern, habe ich durch Coursera und Meta an geleiteten
+            Seminaren zum Thema teilgenommen. <br />
+            Im Laufe der Seminare gab es mehrere Übungstests und abschließend
+            eine Zusammenfassende Klausur oder ein Projekt, bei denen man das
+            Gelernte umsetzen musste. Bei erfolgreichem Abschluss dieser
+            Abschlussprüfungen erlangt man ein Zertifikat, das die Teilnahme
+            nachweist:
+          </p>
+          <h4>Zertifikate:</h4>
           <a
             href="/portfolio/zertifikate/introduction_front_end_dev_certificate_Eleonora_Zweigardt.pdf"
             >Introduction to Front End Development By Coursera</a
           >
           <br />
-          <ul>
+          <ul class="auflistung">
             <li>
               Grundlagen zum Verständnis der Funktion von Websiten, Protokollen
               und Servern
@@ -106,7 +119,7 @@
             href="/portfolio/zertifikate/programming_with_JS_certificate_Eleonora_Zweigardt.pdf"
             >Programming with JavaScript By Coursera</a
           ><br />
-          <ul>
+          <ul class="auflistung">
             <li>
               Einführung in Javascripts Nutzung von Variablen, Data Types und
               Operators
@@ -126,7 +139,7 @@
             href="/portfolio/zertifikate/version_control_certificate_Eleonora_Zweigardt.pdf"
             >Version Control By Coursera</a
           ><br />
-          <ul>
+          <ul class="auflistung">
             <li>Erstellen und Management von Repositories auf Github</li>
             <li>Verwendung von Visual Studio Code in Kombination mit Github</li>
             <li>Arbeiten mit Command Lines in Bash</li>
@@ -137,7 +150,7 @@
             href="/portfolio/zertifikate/react_basics_certificate_Eleonora_Zweigardt.pdf"
             >React Basics By Coursera</a
           ><br />
-          <ul>
+          <ul class="auflistung">
             <li>
               Erstellen eines Taschenrechners mithilfe React nach Anweisung von
               Meta <br />
@@ -159,7 +172,7 @@
           <h3>
             Kassenmitarbeiterin Teilzeit | DB Museum Nürnberg | Nov '23 - Heute
           </h3>
-          <ul>
+          <ul class="auflistung">
             <li>
               Abwicklung von Kassentransaktionen, einschließlich Bargeld- und
               Kartenzahlungen
@@ -178,7 +191,7 @@
             </li>
           </ul>
           <h3>Postbotin | Deutsche Post | Sep '23 - Nov '23</h3>
-          <ul>
+          <ul class="auflistung">
             <li>
               Sortieren und Vorbereiten von Postsendungen für die Zustellung
             </li>
@@ -195,7 +208,7 @@
           <h3>
             Werkstudentin Projekt Management| ad pepper | Dez '22 - Mär '23
           </h3>
-          <ul>
+          <ul class="auflistung">
             <li>Assistenz bei Projektplänen, Identifizierung von Ressoucen</li>
             <li>Recherche sowie Markt- und Wettbewerbsanalyse</li>
             <li>
@@ -205,7 +218,7 @@
             <li>Datenauswertung und Projektdokumentation</li>
           </ul>
           <h3>Werkstudentin Marketing | upjers GmbH | Mär '22 - Nov '22</h3>
-          <ul>
+          <ul class="auflistung">
             <li>
               Verantwortlich für TikTok Account Management inkl.
               Contentproduktion, Redaktionsplan, Tracking & Analyse
@@ -221,19 +234,19 @@
             Verkaufsberaterin | MORE & MORE | Mai '18 - Jan '19, Mär '19 - Aug
             '19
           </h3>
-          <ul>
+          <ul class="auflistung">
             <li>Stellvertretende Verantwortung für Storeabläufe</li>
             <li>Kundenberatung und -Betreuung</li>
             <li>Verantwortung für Visual Merchendising</li>
           </ul>
           <h3>Bedienung | Bolero Bamberg | Nov '17 - Mai '18</h3>
-          <ul>
+          <ul class="auflistung">
             <li>Service von Gästen, Management größerer Reservierungen</li>
           </ul>
           <h3>
             Personal Stylist | Runway Secrets Melbourne | Mär '17 - Aug '17
           </h3>
-          <ul>
+          <ul class="auflistung">
             <li>
               Stellvertretende Verantwortung für Geschäftsabläufe und Management
               von Filialen
@@ -246,7 +259,7 @@
           <h3>
             Stellv. Filialleitung 2IC | Decjuba Auckland | Sep '16 - Mär '17
           </h3>
-          <ul>
+          <ul class="auflistung">
             <li>Stellvertretende Verantwortung für Storeabläufe</li>
             <li>Führung, Organisation und Motivation des Teams</li>
             <li>Training von neuen Team Mitgliedern</li>

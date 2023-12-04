@@ -1,9 +1,9 @@
-@import url("header.css");
+@import url("css/header.css");
 @import url("css/icon-list.css");
 @import url("css/main-layout.css");
+@import url("css/background.css");
 
 body {
-  background: #3c1919;
   min-height: 100vh;
   box-sizing: border-box;
   padding-top: 10vh;
@@ -13,6 +13,7 @@ body {
   margin: 0 auto;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 106%;
+  color: antiquewhite;
 }
 
 h1 {

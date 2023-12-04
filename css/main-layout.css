@@ -8,13 +8,13 @@
 .content {
   grid-column: span 2;
   padding: 1rem 2rem;
-  background-color: rgba(0, 0, 0, 0.451);
+  background-color: rgba(0, 0, 0, 0.645);
   border-radius: 2rem;
+  box-shadow: 2px 2px 2px 2px #2c063d;
 }
 .hidden {
   transform-origin: 50% 50%;
   animation: back-out-right-animation 1s ease 0s 1 normal both running;
-
   display: none;
 }
 
@@ -30,7 +30,7 @@
   }
 
   100% {
-    transform: translate(2000px, 0px);
+    transform: translate(200px, 0px);
     opacity: 0.7;
   }
 }
@@ -44,7 +44,7 @@
 
 @keyframes back-in-right-animation {
   0% {
-    transform: translate(2000px, 0px);
+    transform: translate(150px, 0px);
     opacity: 0.7;
   }
 
@@ -63,6 +63,7 @@
   background-color: rgba(0, 0, 0, 0.451);
   padding-top: 2rem;
   border-radius: 2rem;
+  box-shadow: 2px 2px 2px 2px #2c063d;
 }
 .menu-item {
   cursor: pointer;

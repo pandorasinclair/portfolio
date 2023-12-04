@@ -26,3 +26,37 @@ h1 {
 .beschreibung {
   text-align: justify;
 }
+
+footer {
+  font-size: small;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 0 10rem;
+}
+
+.top {
+  --offset: 50px;
+  cursor: pointer;
+  position: sticky;
+  bottom: 20px;
+  margin-right: 10px;
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+  color: inherit;
+}
+
+@media (max-width: 990px) {
+  footer {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    padding: 0 2rem;
+  }
+  .divider {
+    display: none;
+  }
+  .beschreibung {
+    text-align: left;
+  }
+}

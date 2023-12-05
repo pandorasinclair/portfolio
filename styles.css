@@ -60,3 +60,23 @@ footer {
     text-align: left;
   }
 }
+
+.noDot {
+  list-style-type: none;
+}
+.liPuffer {
+  margin-bottom: 25px;
+}
+
+h4 {
+  text-align: center;
+}
+.border {
+  border: 2px dotted antiquewhite;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+}
+
+.projekte {
+  margin-right: 2rem;
+}

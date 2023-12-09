@@ -35,15 +35,7 @@ h4 {
 .accordeon-ul .accordeon-li:nth-of-type(3) {
   animation-delay: 0.4s;
 }
-.accordeon-ul .accordeon-li:nth-of-type(4) {
-  animation-delay: 0.5s;
-}
-.accordeon-ul .accordeon-li:nth-of-type(5) {
-  animation-delay: 0.7s;
-}
-.accordeon-ul .accordeon-li:nth-of-type(6) {
-  animation-delay: 0.8s;
-}
+
 .accordeon-ul .accordeon-li:last-of-type {
   padding-bottom: 0;
 }

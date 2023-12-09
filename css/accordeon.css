@@ -1,63 +1,47 @@
-.transition,
 .accordeon-ul .accordeon-li i:before,
 .accordeon-ul .accordeon-li i:after,
-p {
+.projekt-text {
   transition: all 0.25s ease-in-out;
 }
 
-.flipIn,
 .accordeon-ul .accordeon-li,
-h1 {
+h4 {
   animation: flipdown 0.5s ease both;
 }
 
-.no-select,
-h2 {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-p {
-  color: rgba(48, 69, 92, 0.8);
-  font-size: 17px;
-  line-height: 26px;
-  letter-spacing: 1px;
-  position: relative;
-  overflow: hidden;
-  max-height: 800px;
-  opacity: 1;
-  transform: translate(0, 0);
-  margin-top: 14px;
+.projekt-text {
   z-index: 2;
 }
 
 .accordeon-ul {
   list-style: none;
-  perspective: 900;
-  padding: 0;
-  margin: 0;
 }
+
 .accordeon-ul .accordeon-li {
   position: relative;
   padding: 0;
   margin: 0;
-  padding-bottom: 4px;
-  padding-top: 18px;
+  padding-bottom: 20px;
+  padding-top: 15px;
   border-top: 1px dotted #dce7eb;
 }
 .accordeon-ul .accordeon-li :nth-of-type(1) {
-  animation-delay: 0.5s;
+  animation-delay: 0.2s;
 }
 .accordeon-ul .accordeon-li:nth-of-type(2) {
-  animation-delay: 0.75s;
+  animation-delay: 0.3s;
 }
 .accordeon-ul .accordeon-li:nth-of-type(3) {
-  animation-delay: 1s;
+  animation-delay: 0.4s;
+}
+.accordeon-ul .accordeon-li:nth-of-type(4) {
+  animation-delay: 0.5s;
+}
+.accordeon-ul .accordeon-li:nth-of-type(5) {
+  animation-delay: 0.7s;
+}
+.accordeon-ul .accordeon-li:nth-of-type(6) {
+  animation-delay: 0.8s;
 }
 .accordeon-ul .accordeon-li:last-of-type {
   padding-bottom: 0;
@@ -90,7 +74,7 @@ p {
   z-index: 1;
   opacity: 0;
 }
-.accordeon-ul .accordeon-li input[type="checkbox"]:checked ~ p {
+.accordeon-ul .accordeon-li input[type="checkbox"]:checked ~ .projekt-inhalt {
   margin-top: 0;
   max-height: 0;
   opacity: 0;
